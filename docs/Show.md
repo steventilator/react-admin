@@ -139,7 +139,7 @@ const Aside = () => (
 );
 
 const PostShow = props => (
-    <Show aside={Aside} {...props}>
+    <Show aside={<Aside />} {...props}>
         ...
     </Show>
 );
